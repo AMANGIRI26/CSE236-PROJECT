@@ -1,0 +1,163 @@
+<html>
+<title>login/signup</title>
+<style>
+*
+{
+	padding:2px;
+	margin:2px;
+	box-sizing:border-box;
+}
+body
+{
+	background-image:url('purple.jpg');
+	background-size:cover;
+	background-postion:center;
+	font-faimly:sans-serif;
+
+}
+.menu-bar
+{
+	background:rgb(0,100,0);
+	text-align:center;
+}
+.menu-bar ul
+{
+	display:inline-flex;
+	list-style:none;
+	color:#fff;
+}
+.menu-bar ul li
+{
+	width:150px;
+	margin:15px;
+	padding:15px;
+	
+}
+.menu-bar ul li a
+{
+	text-decoration:none;
+	color:#fff;
+}
+.active,.menu-bar ul li:hover
+{
+	background:#2bab0d;
+	boder-radius:3px;
+}
+.sub-menu-1
+{
+	display:none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+	display:block;
+	position:absolute;
+	background:rgb(0,100,0);
+	margin-top:15px;
+	margin-left:-15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+	display:block;
+	margin:10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+	width:150px;
+	padding:10px;
+	border-bottom:1px dotted #fff;
+	background:transparent;
+	border-radius:0;
+	text-align:left;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+	border-bottom:none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+	color:#b2ff00;
+}
+	
+
+</style>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+<center>
+<head>
+<img src="aman.png" alt="bank logo"></head>
+<div class="menu-bar">
+<ul>
+<li class="active"> <a href="#home"><i class="fa fa-home"></i>
+Home</a></li>
+<li><a href="#news"><i class="fa fa-yelp"></i>
+Services</a>
+	<div class="sub-menu-1">
+	<ul>
+	<li><a href="personal internet banking.html">Personal Internet Banking</a></li>
+	<li><a href="#">Coperate Internet Banking</a></li>
+	<li><a href="#">Merchant Bussiness</a></li>
+	</ul>
+	</div>
+</li>
+<li><a href="#contact"><i class="fa fa-address-book-o"></i>
+Contact</a>
+<div class="sub-menu-1">
+	<ul>
+	<li><a href="contact us page.html">Information</a></li>
+	<li><a href="Sample pdf.pdf" download="BANK BROUSHER">Download</a></li>
+	
+	</ul>
+	</div>
+</li>
+<li><a href="video.html"><i class="fa fa-video-camera"></i>
+Videos</a></li>
+<li><a href="#nfts"><i class="fa fa-money"></i>
+NFTS</a></li>
+<li><a href="#history"><i class="fa fa-credit-card-alt"></i>
+NPS</a>
+<div class="sub-menu-1">
+	<ul>
+	<li><a href="corperate bank.html">Corperate Online Registration</a></li>
+	</ul>
+	</div></li>
+<li><a href="#payment"><i class="fa fa-paypal"></i>
+Bill Payment</a>
+<div class="sub-menu-1">
+	<ul>
+	<li><a href="#">BBPS Bill Pay</a></li>
+	<li><a href="#">Mobile/Bill Pay</a></li>
+	
+	</ul>
+	</div></li>
+</ul>
+</div>
+<link rel="stylesheet" href="login.css"/>
+<script src="login.js"></script>
+</head>
+
+<h1>WELCOME TO THE SAFE AND SECURE BANK..!</h1>
+
+<h2 style="font-family:arial black;"><marquee bgcolor="yellow">We never call to ask for the OTP and CVV so be aware of it. </marquee> </h2>
+<div class="container">
+<div class="main">
+<h2>SIGN IN </h2>
+<form id="form_id" method="post" name="myform">
+<label>User Name :</label>
+<input type="text" name="username" id="username"/>
+<label>Password :</label>
+<input type="password" name="password" id="password"/>
+<input type="button" value="Login" id="submit" onclick="validate()"/>
+</form>
+</div>
+</div>
+</center>
+<img src="436014-PEA2PZ-994.jpg" height="500px" width="1325px">
+<h3>HIGHEST SAVINGS..!</h3>
+<p><b><i>For most of us, the first association with a bank is through a savings account. There was a time not long ago when you needed an existing account holder's endorsement to open the account, whose only aim was keeping liquid money.
+Our bank brings you the highest percentage of rate of intersest in the savings account.!
+
+Know-your-customer norms have replaced the introduction system, making account-opening much easier. Earlier, there was just one type of savings account where you could deposit money and earn some interest.
+</i></b></p>
+</body>
+</html>
